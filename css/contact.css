@@ -50,8 +50,8 @@ body {font-family: Arial, Helvetica, sans-serif;
   .btn:link,
 .btn:visited {
     position: relative;
-    top:  30%;
-    left: 30%;
+    top:  35%;
+    left: 35%;
     margin-bottom: 80px;
     text-transform: uppercase;
     text-decoration: none;
