@@ -1,5 +1,15 @@
+body
+{ background-color: #000000;}
+
+p {
+    color: #fff;
+}
+
 .btn:link,
 .btn:visited {
+    position: relative;
+    top: 0%;
+    left: 35%;
     text-transform: uppercase;
     text-decoration: none;
     padding: 15px 40px;
@@ -61,3 +71,19 @@
         transform: translateY(0px);
     }
 }
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
